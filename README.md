@@ -1,6 +1,6 @@
-Management tool api
+TaskFlow - Management tool 
 
-Management Tool is a simplified Trello-like application built with Java Spring Boot for the backend, H2 as the in-memory database, and Angular for the frontend. Users can create boards, lists, cards and add description to cards
+TaskFlow is a simplified Trello-like application built with Java Spring Boot for the backend, H2 as the in-memory database, and Angular for the frontend. Users can create boards, lists, cards and add description to cards
 to manage tasks efficiently.
 
 ## Features
