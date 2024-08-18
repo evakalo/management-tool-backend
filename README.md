@@ -26,7 +26,7 @@ These instructions will help you set up and run the project on your local machin
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/evakalo/management-tool-backend.git
 
 Navigate to the project directory:
 cd management-tool
@@ -38,10 +38,7 @@ Start the Spring Boot application.
 - You can change the port and other configurations in the `application.properties` file.
 
 ## Note on `.gitignore`
-The `data` directory, which contains the H2 database files, has been added to `.gitignore`. This means that the database files will not be tracked by Git. This is generally a good practice to avoid committing large files or sensitive data to the repository. 
-
-If you need to persist data across application restarts, make sure to backup the database files manually or use an external database solution in a production environment.
-
+The `data` directory, which contains the H2 database files, has been added to `.gitignore`. This means that the database files will not be tracked by Git. 
 
 ## API Endpoints
 Here are the main API endpoints:
@@ -62,8 +59,5 @@ Here are the main API endpoints:
   - GET `/messages` - List all messages
   - POST `/messages` - Create a new message
 
-## Acknowledgments
-- Spring Boot Documentation
-- Angular Documentation
 
 
